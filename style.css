@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    /* border:10px solid white;  */
+
+}
+
+/* Empieza el header  */
+header{
+    width: 100vw;
+    height: 230px;
+    background-color: rgb(242, 219, 232); 
+    display: flex;
+    justify-content: flex-end;
+    border:10px solid white; 
+}
+
+span{
+    display:flex;
+    position: fixed;
+    transition: 0.2ms;
+    margin-right: 15px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    /* margin-right: 35px; */
+}
+
+.imgCont{
+    width: 30%;
+    /* height: 200px; */
+    display: flex;
+    /* background-color: rgb(153, 15, 105); */
+    justify-content: center;
+    padding: 10px;
+    border-right: 10px solid white;
+}
+
+.image-profile{
+    border-radius: 100%;  
+}
+
+.about{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name{
+font-size: 50px;
+color: azure;
+}
+
+.about p{
+    font-size:13px;
+    width: 70%;
+    text-align: justify;
+}
+
+/* Empieza el main */
+.container{
+    width: 100vw;
+    display: flex;
+    /* margin-top: 10px; */
+    justify-content: space-between;
+    background-color: rgb(242, 219, 232); 
+    border:10px solid white; 
+    border-bottom: 0px;
+    border-top: 0px;
+    }
+
+.contact{
+    width: 30%;
+    background-color: rgb(242, 219, 232); 
+    padding: 10px;
+    padding-right: 15px;
+    border-right: 10px solid white;
+}
+
+
+.contact ul{
+    /* padding-left: 20px; */
+    list-style-type: none;
+}
+
+.experience{
+    width: 70%;
+    padding: 10px;
+}
+
+.experience p{
+    text-align: justify;
+}
+
+.experience ul{
+    padding-left: 20px;
+    /* list-style-type: none; */
+}
+
+.container h4{
+    font-style: italic;
+    
+}
+
+/* Empieza el footer */
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(242, 219, 232); 
+    display: flex;
+    justify-content: center;
+    border:10px solid white; 
+}
+
+.social-media{
+    margin-top: 10px;
+    display: flex;
+}
+
+.social{
+    padding: 10px;
+}
+
+
